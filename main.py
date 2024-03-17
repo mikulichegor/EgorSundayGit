@@ -26,9 +26,13 @@ def menu():
     elif answer =='//':
         pass
     elif answer =='sin':
-        pass
+        sinus()
     elif answer =='cos':
         pass
 
 menu()
 
+
+def sinus():
+    x = int(input("Введите значение угла: "))
+    print(math.sin(x))

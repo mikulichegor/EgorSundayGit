@@ -1,12 +1,14 @@
-
+import math
 def delenie():
     a = int(input('Введите первое число:'))
     b = int(input('Введите первое число:'))
     print(f'Ответ:{a / b}')
 
+def sinus():
+    x = int(input("Введите значение угла: "))
+    print(math.sin(x))
 
 
-import math
 
 def cosinus():
     num_1 = int(input('Введите число для косинуса: '))
@@ -47,11 +49,10 @@ def menu():
         pass
     elif answer == '%':
         pass
+    elif answer =='sin':
+        sinus()
     elif answer == '//':
-        pass
-
-    elif answer == 'sin':
-        pass
+      pass
     elif answer == 'cos':
         cosinus()
 
@@ -60,6 +61,3 @@ def menu():
 
 
 menu()
-
-
-

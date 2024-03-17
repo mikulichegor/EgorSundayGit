@@ -49,17 +49,18 @@ def menu():
     if answer == '+':
         plus()
     elif answer =='-':
-        minus()
+        pass
     elif answer =='*':
-        multiple()
+        pass
     elif answer =='/':
-        divide()
+        pass
     elif answer =='**':
-        stepen()
+        pass
     elif answer =='%':
-        percent()
+        pass
+
     elif answer =='//':
-        fullch()
+        pass
     elif answer =='sin':
         pass
     elif answer =='cos':

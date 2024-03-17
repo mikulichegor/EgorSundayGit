@@ -10,27 +10,60 @@ def menu():
                    'sin - синус\n'
                    'cos - косинус:')
     if answer == '+':
-        a = int(input('Введите первое число:'))
-        b = int(input('Введите второре число:'))
-        print(f'Ответ: {a + b}')
+        plus()
     elif answer =='-':
-        a = int(input('Введите первое число:'))
-        b = int(input('Введите второре число:'))
-        print(f'Ответ: {a - b}')
+        minus()
     elif answer =='*':
-        pass
+        multiple()
     elif answer =='/':
-        pass
+        divide()
     elif answer =='**':
-        pass
+        stepen()
     elif answer =='%':
-        pass
+        percent()
     elif answer =='//':
-        pass
+        fullch()
     elif answer =='sin':
         pass
     elif answer =='cos':
         pass
+
+def minus():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a - b}')
+
+def plus():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a + b}')
+
+def multiple():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a * b}')
+
+def divide():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a / b}')
+
+def stepen():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a ** b}')
+
+def percent():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a % b}')
+
+def fullch():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите второре число:'))
+    print(f'Ответ: {a // b}')
+
+
 
 menu()
 

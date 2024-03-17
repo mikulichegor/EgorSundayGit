@@ -1,8 +1,10 @@
+
 import math
 
 def cosinus():
     num_1 = int(input('Введите число для косинуса: '))
     print(f'Результат: {math.cos(num_1)}')
+
 
 
 def menu():
@@ -17,8 +19,9 @@ def menu():
                    'sin - синус\n'
                    'cos - косинус:')
     if answer == '+':
-        pass
-    elif answer == '-':
+        plus()
+
+    elif answer =='-':
         pass
     elif answer == '*':
         pass
@@ -30,10 +33,15 @@ def menu():
         pass
     elif answer == '//':
         pass
+
     elif answer == 'sin':
         pass
     elif answer == 'cos':
         cosinus()
+
+
+
+
 
 menu()
 

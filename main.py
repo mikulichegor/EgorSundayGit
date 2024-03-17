@@ -1,3 +1,8 @@
+def powering(num_1,  num_2):
+    num_1 = int(input('Введите число для возведения в стпень: '))
+    num_2 = int(input('Введите число для возведения в стпень: '))
+    print(f'Результат: {num_1**num_2}')
+
 def menu():
     answer = input('Выберите действие:\n'
                    '+ - сложение\n'
@@ -20,7 +25,7 @@ def menu():
     elif answer =='/':
         pass
     elif answer =='**':
-        pass
+        print(powering(num_1, num_2))
     elif answer =='%':
         pass
     elif answer =='//':
@@ -29,6 +34,8 @@ def menu():
         pass
     elif answer =='cos':
         pass
+
+
 
 menu()
 

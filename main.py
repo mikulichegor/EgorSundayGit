@@ -1,9 +1,21 @@
+
 def delenie():
     a = int(input('Введите первое число:'))
     b = int(input('Введите первое число:'))
     print(f'Ответ:{a / b}')
 
 
+
+import math
+
+def cosinus():
+    num_1 = int(input('Введите число для косинуса: '))
+    print(f'Результат: {math.cos(num_1)}')
+
+def pluskakashki():
+    a = int(input('Введите первое число: '))
+    b = int(input('Введите второе число: '))
+    print(a + b)
 
 
 def menu():
@@ -17,28 +29,37 @@ def menu():
                    '// - целочисленное деление\n'
                    'sin - синус\n'
                    'cos - косинус:')
+
     if answer == '+':
-        a = int(input('Введите первое число:'))
-        b = int(input('Введите второре число:'))
-        print(f'Ответ: {a + b}')
+        pluskakashki()
     elif answer =='-':
-        a = int(input('Введите первое число:'))
-        b = int(input('Введите второре число:'))
-        print(f'Ответ: {a - b}')
-    elif answer =='*':
         pass
+
     elif answer =='/':
         delenie()
     elif answer =='**':
-        pass
-    elif answer =='%':
-        pass
-    elif answer =='//':
-        pass
-    elif answer =='sin':
-        pass
-    elif answer =='cos':
+
+    elif answer == '*':
         pass
 
+        pass
+    elif answer == '**':
+        pass
+    elif answer == '%':
+        pass
+    elif answer == '//':
+        pass
+
+    elif answer == 'sin':
+        pass
+    elif answer == 'cos':
+        cosinus()
+
+
+
+
+
 menu()
+
+
 

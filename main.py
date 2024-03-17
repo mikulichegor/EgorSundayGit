@@ -1,3 +1,11 @@
+def delenie():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите первое число:'))
+    print(f'Ответ:{a / b}')
+
+
+
+
 def menu():
     answer = input('Выберите действие:\n'
                    '+ - сложение\n'

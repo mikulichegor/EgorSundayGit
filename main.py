@@ -10,9 +10,9 @@ def menu():
                    'sin - синус\n'
                    'cos - косинус:')
     if answer == '+':
-        a = input('Введите первое число:')
-        b = input('Введите второре число:')
-        return f'Ответ: {a+b}'
+        a = int(input('Введите первое число:'))
+        b = int(input('Введите второре число:'))
+        print(f'Ответ: {a+b}')
     elif answer =='-':
         pass
     elif answer =='*':

@@ -1,3 +1,8 @@
+def plus():
+    a = int(input('Введите первое число: '))
+    b = int(input('Введите второе число: '))
+    print(a + b)
+
 def menu():
     answer = input('Выберите действие:\n'
                    '+ - сложение\n'
@@ -9,8 +14,9 @@ def menu():
                    '// - целочисленное деление\n'
                    'sin - синус\n'
                    'cos - косинус:')
+
     if answer == '+':
-        pass
+        plus()
     elif answer =='-':
         pass
     elif answer =='*':

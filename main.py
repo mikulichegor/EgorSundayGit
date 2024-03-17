@@ -28,7 +28,7 @@ def menu():
     elif answer =='*':
         pass
     elif answer =='/':
-        del()
+        delenie()
     elif answer =='**':
         pass
     elif answer =='%':

@@ -1,4 +1,5 @@
-def plus():
+
+def pluskakashki():
     a = int(input('Введите первое число: '))
     b = int(input('Введите второе число: '))
     print(a + b)
@@ -16,7 +17,7 @@ def menu():
                    'cos - косинус:')
 
     if answer == '+':
-        plus()
+        pluskakashki()
     elif answer =='-':
         pass
     elif answer =='*':
@@ -27,12 +28,17 @@ def menu():
         pass
     elif answer =='%':
         pass
+
     elif answer =='//':
         pass
     elif answer =='sin':
         pass
     elif answer =='cos':
         pass
+
+
+
+
 
 menu()
 

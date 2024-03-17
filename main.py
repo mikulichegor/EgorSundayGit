@@ -1,3 +1,8 @@
+import math
+
+def cosinus():
+    num_1 = int(input('Введите число для косинуса: '))
+    print(f'Результат: {math.cos(num_1)}')
 
 def pluskakashki():
     a = int(input('Введите первое число: '))
@@ -20,25 +25,27 @@ def menu():
         pluskakashki()
     elif answer =='-':
         pass
-    elif answer =='*':
+    elif answer == '*':
         pass
-    elif answer =='/':
+    elif answer == '/':
         pass
-    elif answer =='**':
+    elif answer == '**':
         pass
-    elif answer =='%':
+    elif answer == '%':
+        pass
+    elif answer == '//':
         pass
 
-    elif answer =='//':
+    elif answer == 'sin':
         pass
-    elif answer =='sin':
-        pass
-    elif answer =='cos':
-        pass
+    elif answer == 'cos':
+        cosinus()
 
 
 
 
 
 menu()
+
+
 

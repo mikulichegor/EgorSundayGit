@@ -1,37 +1,9 @@
-def minus():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a - b}')
 
-def plus():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a + b}')
+import math
 
-def multiple():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a * b}')
-
-def divide():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a / b}')
-
-def stepen():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a ** b}')
-
-def percent():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a % b}')
-
-def fullch():
-    a = int(input('Введите первое число:'))
-    b = int(input('Введите второре число:'))
-    print(f'Ответ: {a // b}')
+def cosinus():
+    num_1 = int(input('Введите число для косинуса: '))
+    print(f'Результат: {math.cos(num_1)}')
 
 
 
@@ -48,27 +20,30 @@ def menu():
                    'cos - косинус:')
     if answer == '+':
         plus()
+
     elif answer =='-':
         pass
-    elif answer =='*':
+    elif answer == '*':
         pass
-    elif answer =='/':
+    elif answer == '/':
         pass
-    elif answer =='**':
+    elif answer == '**':
         pass
-    elif answer =='%':
+    elif answer == '%':
+        pass
+    elif answer == '//':
         pass
 
-    elif answer =='//':
+    elif answer == 'sin':
         pass
-    elif answer =='sin':
-        pass
-    elif answer =='cos':
-        pass
+    elif answer == 'cos':
+        cosinus()
 
 
 
 
 
 menu()
+
+
 

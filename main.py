@@ -1,3 +1,11 @@
+
+def delenie():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите первое число:'))
+    print(f'Ответ:{a / b}')
+
+
+
 import math
 
 def cosinus():
@@ -8,6 +16,7 @@ def pluskakashki():
     a = int(input('Введите первое число: '))
     b = int(input('Введите второе число: '))
     print(a + b)
+
 
 def menu():
     answer = input('Выберите действие:\n'
@@ -25,9 +34,14 @@ def menu():
         pluskakashki()
     elif answer =='-':
         pass
+
+    elif answer =='/':
+        delenie()
+    elif answer =='**':
+
     elif answer == '*':
         pass
-    elif answer == '/':
+
         pass
     elif answer == '**':
         pass

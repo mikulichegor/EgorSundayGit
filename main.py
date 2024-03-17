@@ -1,3 +1,25 @@
+import math
+def delenie():
+    a = int(input('Введите первое число:'))
+    b = int(input('Введите первое число:'))
+    print(f'Ответ:{a / b}')
+
+def sinus():
+    x = int(input("Введите значение угла: "))
+    print(math.sin(x))
+
+
+
+def cosinus():
+    num_1 = int(input('Введите число для косинуса: '))
+    print(f'Результат: {math.cos(num_1)}')
+
+def pluskakashki():
+    a = int(input('Введите первое число: '))
+    b = int(input('Введите второе число: '))
+    print(a + b)
+
+
 def menu():
     answer = input('Выберите действие:\n'
                    '+ - сложение\n'
@@ -9,30 +31,33 @@ def menu():
                    '// - целочисленное деление\n'
                    'sin - синус\n'
                    'cos - косинус:')
+
     if answer == '+':
-        a = input('Введите первое число:')
-        b = input('Введите второре число:')
-        return f'Ответ: {a+b}'
+        pluskakashki()
     elif answer =='-':
         pass
-    elif answer =='*':
-        pass
+
     elif answer =='/':
-        pass
+        delenie()
     elif answer =='**':
+
+    elif answer == '*':
         pass
-    elif answer =='%':
+
         pass
-    elif answer =='//':
+    elif answer == '**':
+        pass
+    elif answer == '%':
         pass
     elif answer =='sin':
         sinus()
-    elif answer =='cos':
-        pass
+    elif answer == '//':
+      pass
+    elif answer == 'cos':
+        cosinus()
+
+
+
+
 
 menu()
-
-
-def sinus():
-    x = int(input("Введите значение угла: "))
-    print(math.sin(x))

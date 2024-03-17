@@ -12,9 +12,11 @@ def menu():
     if answer == '+':
         a = int(input('Введите первое число:'))
         b = int(input('Введите второре число:'))
-        print(f'Ответ: {a+b}')
+        print(f'Ответ: {a + b}')
     elif answer =='-':
-        pass
+        a = int(input('Введите первое число:'))
+        b = int(input('Введите второре число:'))
+        print(f'Ответ: {a - b}')
     elif answer =='*':
         pass
     elif answer =='/':
